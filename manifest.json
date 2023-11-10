@@ -1,6 +1,6 @@
 {
-    "name": "test_telegram_web_bot",
-    "short_name": "test_telegram_web_bot",
+    "name": "trading_web_app",
+    "short_name": "trading_web_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
