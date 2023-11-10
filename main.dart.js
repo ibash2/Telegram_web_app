@@ -81490,7 +81490,10 @@ A.EJ.prototype={}
 A.wX.prototype={
 an(){return new A.PE(Telegram.WebApp.initData,A.aD_(),B.j)}}
 A.PE.prototype={
-aJ(){var s=this.e
+aJ(){Telegram.WebApp.BackButton
+Telegram.WebApp.MainButton
+Telegram.WebApp.expand()
+var s=this.e
 s.D(0,new A.nY())
 s.D(0,new A.p3(this.d))
 this.b_()},
