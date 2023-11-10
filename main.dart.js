@@ -81497,7 +81497,7 @@ this.b_()},
 K(a){return A.ao8(B.m,new A.vE(new A.aeH(this),this.e,null,null,t._o))}}
 A.aeH.prototype={
 $2(a,b){var s,r,q,p=null
-if(!(b instanceof A.EJ)){s=this.a
+if(b instanceof A.EJ){s=this.a
 r=A.eC("UserID "+s.d,p,p,p,p,p,p)
 q=A.bw(16)
 q=A.c_(p,A.oi(B.QR,B.f6,p,p,1/0,new A.aeF(s,a),B.at,new A.bx(A.bw(100),B.p),p),p,p,new A.ce(p,p,p,q,p,p,B.a2),p,p,p,200)
