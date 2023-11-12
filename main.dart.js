@@ -81697,7 +81697,7 @@ n=t.N
 s=6
 return A.a2(l.Tg("https://065c-176-115-120-229.ngrok-free.app/test",A.aE(["initData",a.a],n,n),t.z),$async$$2)
 case 6:o=d
-if(J.d(J.bm(o.a,"mes"),"success")){if(!b.d)b.a.$1(new A.EO())}else if(!b.d)b.a.$1(new A.EM())
+if(J.d(J.bm(o.a,"status"),"success")){if(!b.d)b.a.$1(new A.EO())}else if(!b.d)b.a.$1(new A.EM())
 q=1
 s=5
 break
