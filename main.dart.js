@@ -81399,7 +81399,7 @@ l=t.N
 k=A.aE(["initData",a.a,"api_key",a.b,"api_secret",a.c],l,l)
 q=3
 s=6
-return A.a2(m.Tb("https://88a6-2a03-d000-1581-c88e-1d08-60f1-2979-391d.ngrok-free.app/save_keys",k,t.z),$async$$2)
+return A.a2(m.Tb("https://065c-176-115-120-229.ngrok-free.app /save_keys",k,t.z),$async$$2)
 case 6:q=1
 s=5
 break
@@ -81468,7 +81468,7 @@ s=q}while(true)switch(s){case 0:l=A.an7(null)
 q=3
 n=t.N
 s=6
-return A.a2(l.Tb("https://88a6-2a03-d000-1581-c88e-1d08-60f1-2979-391d.ngrok-free.app/test",A.aE(["initData",a.a],n,n),t.z),$async$$2)
+return A.a2(l.Tb("https://065c-176-115-120-229.ngrok-free.app/test",A.aE(["initData",a.a],n,n),t.z),$async$$2)
 case 6:o=d
 if(J.e(J.bm(o.a,"mes"),"success")){if(!b.d)b.a.$1(new A.EJ())}else if(!b.d)b.a.$1(new A.EI())
 q=1
