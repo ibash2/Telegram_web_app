@@ -81625,7 +81625,7 @@ l=t.N
 k=A.aE(["initData",a.a,"api_key",a.b,"api_secret",a.c],l,l)
 q=3
 s=6
-return A.a2(m.Tg("https://065c-176-115-120-229.ngrok-free.app /save_keys",k,t.z),$async$$2)
+return A.a2(m.Tg("https://065c-176-115-120-229.ngrok-free.app/save_keys",k,t.z),$async$$2)
 case 6:q=1
 s=5
 break
