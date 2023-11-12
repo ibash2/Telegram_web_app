@@ -81688,21 +81688,22 @@ return A.Z($async$$2,r)},
 $S:487}
 A.a4R.prototype={
 $2(a,b){return this.UF(a,b)},
-UF(a,b){var s=0,r=A.a_(t.H),q=1,p,o,n,m,l,k
+UF(a,b){var s=0,r=A.a_(t.H),q=1,p,o,n,m,l,k,j
 var $async$$2=A.a0(function(c,d){if(c===1){p=d
-s=q}while(true)switch(s){case 0:l=A.ank(null)
+s=q}while(true)switch(s){case 0:k=A.ank(null)
 q=3
 if(!b.d)b.a.$1(new A.EN())
-n=t.N
+m=t.N
 s=6
-return A.a2(l.Tg("https://065c-176-115-120-229.ngrok-free.app/test",A.aE(["initData",a.a],n,n),t.z),$async$$2)
+return A.a2(k.Tg("https://065c-176-115-120-229.ngrok-free.app/test",A.aE(["initData",a.a],m,m),t.z),$async$$2)
 case 6:o=d
-if(J.d(J.bm(o.a,"status"),"success")){if(!b.d)b.a.$1(new A.EO())}else if(!b.d)b.a.$1(new A.EM())
+n=J.bm(o.a,"status")
+if(J.d(n,"success")){if(!b.d)b.a.$1(new A.EO())}else if(!b.d)b.a.$1(new A.EM())
 q=1
 s=5
 break
 case 3:q=2
-k=p
+j=p
 if(!b.d)b.a.$1(new A.EM())
 s=5
 break
