@@ -81625,7 +81625,7 @@ l=t.N
 k=A.aE(["initData",a.a,"api_key",a.b,"api_secret",a.c],l,l)
 q=3
 s=6
-return A.a2(m.Tg("https://065c-176-115-120-229.ngrok-free.app/save_keys",k,t.z),$async$$2)
+return A.a2(m.Tg("https://3ada-78-156-235-106.ngrok-free.app/save_keys",k,t.z),$async$$2)
 case 6:q=1
 s=5
 break
@@ -81695,7 +81695,7 @@ q=3
 if(!b.d)b.a.$1(new A.W6())
 m=t.N
 s=6
-return A.a2(k.Tg("https://065c-176-115-120-229.ngrok-free.app/test",A.aE(["initData",a.a],m,m),t.z),$async$$2)
+return A.a2(k.Tg("https://3ada-78-156-235-106.ngrok-free.app/test",A.aE(["initData",a.a],m,m),t.z),$async$$2)
 case 6:o=d
 n=J.bm(o.a,"status")
 if(J.d(n,"success")){if(!b.d)b.a.$1(new A.EN())}else if(!b.d)b.a.$1(new A.vc())
