@@ -56452,7 +56452,7 @@ ap(){var s="dark",r=J.d(Telegram.WebApp.colorScheme,s),q=A.aat(Telegram.WebApp.b
 return new A.GM(r,q,p,o,n,A.ajb(),B.p)}}
 A.GM.prototype={
 b2(){var s,r="sdfsfdsd"
-Telegram.WebApp.setHeaderColor("#F2F2F7")
+if(!this.f)Telegram.WebApp.setHeaderColor("#F2F2F7")
 s=this.z
 s.B(0,new A.kQ(r,23324243))
 s.B(0,new A.lA(r))
@@ -60807,7 +60807,7 @@ B.JM=new A.E9(1,"longestLine")
 B.Im=new A.k(!0,B.cB,null,"SF Pro",null,null,13,B.i,null,-0.08,null,null,0.11,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.JN=new A.iq("Deposit",null,B.Im,null,null)
 B.hO=new A.E(4281648985)
-B.FF=new A.k(!0,B.hO,null,"SF Pro",null,null,12,B.i,null,null,null,null,0.11,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.FF=new A.k(!0,B.hO,null,"SF Pro",null,null,12,B.i,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.JO=new A.iq("DEP: 70 \u20ae \udbc0\udd2f",null,B.FF,null,null)
 B.IA=new A.k(!0,B.hO,null,"SF Pro Rounded",null,null,17,B.aB,null,0.38,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.JQ=new A.iq("+234.35",null,B.IA,null,null)
