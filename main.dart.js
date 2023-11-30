@@ -56153,7 +56153,7 @@ j.a.toString
 s=A.Mn(16)
 r=J.a5_(3,t.cl)
 for(q=t.b,p=t.nO,o=0;o<3;++o){n=j.a.e[o]
-m=A.aac(A.o8(A.a([A.o8(i,new A.k(!0,B.l,i,h,i,i,17,B.B,i,0.5,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),"BTC "),B.Fc],p),i,i),i,i)
+m=A.aac(A.o8(A.a([A.o8(i,new A.k(!0,B.l,i,h,i,i,17,B.B,i,0.5,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),"BTC"),B.Fc],p),i,i),i,i)
 l="TP: "+j.a.r[o]
 k=A.XA(l,new A.k(!0,B.l,i,h,i,i,12,B.i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),i)
 r[o]=A.Nt(A.a([new A.hf(B.xd,A.VA(A.a([n,B.Ej,A.Nt(A.a([m,A.VA(A.a([k,B.o_,A.XA(l,new A.k(!0,B.l,i,h,i,i,12,B.i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),i),B.o_,B.Ju],q),B.ay,B.nI,B.bf)],q),B.ef),new A.zB(1,B.ig,A.yC(i,i,B.G,i,i,i,i,i,i,i,i,i,i),i),A.Ak("public/images/next.png",3)],q),B.ay,B.d6,B.bf),i),new A.zb(1,j.a.d,i)],q),B.ay)}q=A.Nt(r,B.ay)
