@@ -39258,8 +39258,8 @@ lY(){return this.D(this,A.D("lY","lY",0,[],[],0))},
 R(a,b){return this.D(a,A.D("R","R",0,[b],[],0))},
 Y(a,b){return this.D(a,A.D("Y","Y",0,[b],[],0))},
 P(a,b){return this.D(a,A.D("P","P",0,[b],[],0))},
-jc(a){return this.D(a,A.D("jc","jc",0,[],[],0))},
 xv(a,b){return this.D(a,A.D("xv","xv",0,[b],[],0))},
+jc(a){return this.D(a,A.D("jc","jc",0,[],[],0))},
 tG(a){return this.D(a,A.D("tG","tG",0,[],[],0))},
 ga6(a){return this.D(a,A.D("ga6","ga6",1,[],[],0))},
 gq(a){return this.D(a,A.D("gq","gq",1,[],[],0))},
@@ -76020,9 +76020,10 @@ K(a){var s=null
 J.am5(Telegram.WebApp.BackButton,A.b1(new A.a8W(a)))
 return A.ajX(A.amB(242,242,247,1),new A.ch(B.c0,A.jr(A.b([B.bP,B.PA,B.PE,B.bP,B.GR,B.fL,new A.w6(!1,A.le("public/images/binance-icon.png",3),"Binance",!1,s),B.bP,B.GV,B.fL,new A.nM(s),B.bP,B.GU,B.fL,new A.nM(s)],t.p),B.a1,B.a7),s))}}
 A.a8W.prototype={
-$0(){A.wT(this.a).EX(null)
-return null},
-$S:0}
+$0(){J.Da(Telegram.WebApp.MainButton,!1)
+J.am1(Telegram.WebApp.BackButton)
+A.wT(this.a).EX(null)},
+$S:5}
 A.mI.prototype={
 af(){return new A.LE(B.k)}}
 A.LE.prototype={
@@ -76038,9 +76039,9 @@ r=t.p
 q=t.U
 return A.ajX(B.eA,new A.ch(B.c0,A.jr(A.b([B.ya,B.GS,new A.nM(p),B.bP,B.GT,A.fM(A.ajz(new A.ch(B.BE,A.iY(A.b([A.le("public/images/pair.png",4),B.fK,B.PC,A.an8(A.fY(p,p,B.z,p,p,p,p,p,p,p,p,p,p)),A.le("public/images/next.png",3)],r),B.a1,B.bN,B.a7),p),B.i,0,p,B.A,new A.a94(),new A.c7(s,B.q),B.A),54,p),new A.hM("1 BTC = 26 280.25 \u20ae",p),B.bP,new A.hM("TRADE",p),A.fY(p,new A.ch(B.c0,A.iY(A.b([A.le("public/images/trade.png",4),B.fK,B.PD],r),B.a1,B.bN,B.a7),p),B.z,p,p,B.yt,p,54,p,p,p,p,p),A.fM(p,24,p),B.GQ,A.fY(p,A.jr(A.b([new A.ch(B.hM,A.iY(A.b([A.ej("Strategy",p,p,p,A.cO(p,p,B.m,p,p,p,p,p,o,p,p,17,p,p,B.l,p,p,!0,p,p,p,p,p,p,p,p),p,p),A.ak2(new A.a95(),new A.bc(new A.a96(),q),!0)],r),B.a1,B.iF,B.a7),p),A.amN(B.eA,1),new A.ch(B.hM,A.iY(A.b([A.ej("Defends",p,p,p,A.cO(p,p,B.m,p,p,p,p,p,o,p,p,17,p,p,B.l,p,p,!0,p,p,p,p,p,p,p,p),p,p),A.ak2(new A.a97(),new A.bc(new A.a98(),q),!0)],r),B.a1,B.iF,B.a7),p),A.amN(B.eA,1),new A.ch(B.hM,A.iY(A.b([A.ej("Take Profit",p,p,p,A.cO(p,p,B.m,p,p,p,p,p,o,p,p,17,p,p,B.l,p,p,!0,p,p,p,p,p,p,p,p),p,p),A.ak2(new A.a99(),new A.bc(new A.a9a(),q),!0)],r),B.a1,B.iF,B.a7),p)],r),B.a1,B.a7),B.z,p,p,B.yu,p,p,p,p,p,p,p)],r),B.a1,B.a7),p))}}
 A.a93.prototype={
-$0(){A.wT(this.a).EX(null)
+$0(){J.Da(Telegram.WebApp.MainButton,!1)
 J.am1(Telegram.WebApp.BackButton)
-J.Da(Telegram.WebApp.MainButton,!1)},
+A.wT(this.a).EX(null)},
 $S:5}
 A.a94.prototype={
 $0(){},
@@ -76146,9 +76147,7 @@ s=this.z
 s.C(0,new A.nm(r,23324243))
 s.C(0,new A.ol(r))
 this.aW()},
-K(a){J.am1(Telegram.WebApp.BackButton)
-J.Da(Telegram.WebApp.MainButton,!1)
-return A.ajX(this.w,new A.uo(new A.abx(this),this.z,null,null,t._o))}}
+K(a){return A.ajX(this.w,new A.uo(new A.abx(this),this.z,null,null,t._o))}}
 A.abx.prototype={
 $2(a,b){var s=null,r="public/images/pair.png",q=this.a
 q=A.uH(A.jr(A.b([B.PB,B.x9,A.ak4(A.c9(A.b([A.c9(s,A.cO(s,s,q.x,s,s,s,s,s,"SF Pro Rounded",s,s,40,s,s,B.bm,s,s,!0,s,0.38,s,s,s,s,s,s),"15 194.35 "),B.Li],t.VO),s,s),s,s),B.PF,B.K9,A.fM(new A.H7("Create new bot",new A.abv(a),s),s,1/0),B.K8,new A.Fa("Add a key",A.le("public/images/cross.png",4),new A.abw(q,a),s),B.bP,B.HE,B.fL,new A.us(q.f,q.w,A.b([A.le(r,3),A.le(r,3),A.le(r,3)],t.jm),A.b(["05","05","05"],t.s),s)],t.p),B.a1,B.a7),s,s)
