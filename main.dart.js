@@ -83229,9 +83229,9 @@ J.asv(Telegram.WebApp.BackButton)
 A.f8(this.a,!1).uq(null)},
 $S:5}
 A.adL.prototype={
-$0(){var s=A.rV(new A.adJ(),B.q,B.q,t.z)
-A.f8(this.a,!1).hG(s)
-J.iU(Telegram.WebApp.MainButton,!1)},
+$0(){J.iU(Telegram.WebApp.MainButton,!1)
+var s=A.rV(new A.adJ(),B.q,B.q,t.z)
+A.f8(this.a,!1).hG(s)},
 $S:5}
 A.adJ.prototype={
 $3(a,b,c){return B.ya},
