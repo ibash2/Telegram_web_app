@@ -83416,14 +83416,14 @@ J.aoV(Telegram.WebApp.MainButton,A.ba(new A.alh(s)))
 return s.e[s.d]}}
 A.alg.prototype={
 $0(){var s=this.a
-s.ai(new A.alf(s))},
+if(s.d>0)s.ai(new A.alf(s))},
 $S:6}
 A.alf.prototype={
 $0(){--this.a.d},
 $S:0}
 A.alh.prototype={
 $0(){var s=this.a
-s.ai(new A.ale(s))},
+if(s.d<4)s.ai(new A.ale(s))},
 $S:6}
 A.ale.prototype={
 $0(){++this.a.d},
