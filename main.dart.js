@@ -83415,6 +83415,7 @@ s=q.d
 r=J.bS(s)
 r.nU(s)
 r.scm(s,"Next to step 2 / 6")
+r.sa5(s,"#007AFF")
 o.pK(p,A.ba(new A.alh(q)))
 r.pK(s,A.ba(new A.ali(q)))
 q.aT()},
