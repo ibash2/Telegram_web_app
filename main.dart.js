@@ -83075,14 +83075,13 @@ return A.LT(q,new A.bs(B.bl,A.eW(A.b([B.zd,B.IH,B.IX,B.aM,B.IJ,p,B.IN,B.aM,B.IL,
 A.adF.prototype={
 $0(){var s,r
 Telegram.WebApp.showConfirm("HIDED 3")
-J.q5(Telegram.WebApp.MainButton)
-J.q5(Telegram.WebApp.BackButton)
 s=this.a
 if(J.aBj(s.d)){Telegram.WebApp.showConfirm("Main Button Clicked")
 r=s.c
 r.toString
 A.ii(r,!0).j_(A.Kp(new A.adD(),B.q,B.q,t.z))
-s.am(new A.adE())}},
+s.am(new A.adE())}J.q5(Telegram.WebApp.MainButton)
+J.q5(Telegram.WebApp.BackButton)},
 $S:5}
 A.adD.prototype={
 $3(a,b,c){return new A.pj(null)},
