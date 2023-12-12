@@ -83071,13 +83071,12 @@ s=r==null?s.b:r
 r=t.U
 return A.LS(q,new A.bs(B.bl,A.eW(A.b([B.zd,B.IH,B.IX,B.aM,B.IJ,p,B.IN,B.aM,B.IL,o,B.aM,B.IE,A.df(q,A.eW(A.b([new A.bs(B.io,A.dl(A.b([B.S9,A.ab2(new A.adw(),new A.b6(new A.adx(),r),!0)],n),B.D,B.aR,B.F),q),B.c6,new A.bs(B.io,A.dl(A.b([B.S2,A.ab2(new A.ady(),new A.b6(new A.adz(),r),!0)],n),B.D,B.aR,B.F),q),B.c6,new A.bs(B.io,A.dl(A.b([B.S4,A.ab2(new A.adA(),new A.b6(new A.adB(),r),!0)],n),B.D,B.aR,B.F),q)],n),B.D,B.F),B.r,q,q,new A.cf(s,q,q,B.kO,q,q,B.a3),q,q,q,q,q,q,q)],n),B.D,B.F),q))}}
 A.adE.prototype={
-$0(){var s,r
-Telegram.WebApp.showConfirm("Main Button Clicked")
-s=this.a
-if(J.aBk(s.d)){r=s.c
-r.toString
-A.ii(r,!0).j_(A.Ko(new A.adC(s),B.q,B.q,t.z))
-s.am(new A.adD())}},
+$0(){var s,r=this.a
+if(J.aBk(r.d)){Telegram.WebApp.showConfirm("Main Button Clicked")
+s=r.c
+s.toString
+A.ii(s,!0).j_(A.Ko(new A.adC(r),B.q,B.q,t.z))
+r.am(new A.adD())}},
 $S:5}
 A.adC.prototype={
 $3(a,b,c){var s=this.a
