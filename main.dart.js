@@ -83420,15 +83420,16 @@ r.pK(s,A.ba(new A.ali(q)))
 q.aT()},
 H(a){return this.r[this.f]}}
 A.alh.prototype={
-$0(){var s=this.a,r=s.f
-if(r>0){--r
-s.f=r
-J.aoX(s.d,"Next to step "+(r+2)+" / 6")
-s.ai(new A.alg())}if(s.f===0){J.aoW(s.e)
-J.aoW(s.d)
-s=s.c
+$0(){var s,r=this.a
+if(r.f===0){J.aoW(r.e)
+J.aoW(r.d)
+s=r.c
 s.toString
-A.kq(s,!1).er()}},
+A.kq(s,!1).er()}s=r.f
+if(s>0){--s
+r.f=s
+J.aoX(r.d,"Next to step "+(s+2)+" / 6")
+r.ai(new A.alg())}},
 $S:6}
 A.alg.prototype={
 $0(){},
