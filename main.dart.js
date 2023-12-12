@@ -25080,9 +25080,9 @@ _.a=null
 _.b=d
 _.c=null},
 alf:function alf(a){this.a=a},
-ale:function ale(a){this.a=a},
+ale:function ale(){},
 alg:function alg(a){this.a=a},
-ald:function ald(a){this.a=a},
+ald:function ald(){},
 HC:function HC(a){this.a=a},
 tD:function tD(a,b,c,d){var _=this
 _.c=a
@@ -83405,24 +83405,28 @@ aC(){J.aoW(this.e)
 J.aoW(this.d)
 this.aT()},
 H(a){var s=this
-J.aoU(Telegram.WebApp.BackButton,A.ba(new A.alf(s)))
-J.aoU(Telegram.WebApp.MainButton,A.ba(new A.alg(s)))
+J.aoU(s.e,A.ba(new A.alf(s)))
+J.aoU(s.d,A.ba(new A.alg(s)))
 return s.r[s.f]}}
 A.alf.prototype={
 $0(){var s=this.a,r=s.f
-if(r>0){J.aoV(s.d,""+r)
-s.ai(new A.ale(s))}},
+if(r>0){--r
+s.f=r
+J.aoV(s.d,""+r)
+s.ai(new A.ale())}},
 $S:6}
 A.ale.prototype={
-$0(){--this.a.f},
+$0(){},
 $S:0}
 A.alg.prototype={
 $0(){var s=this.a,r=s.f
-if(r<4){J.aoV(s.d,""+r)
-s.ai(new A.ald(s))}},
+if(r<4){++r
+s.f=r
+J.aoV(s.d,""+r)
+s.ai(new A.ald())}},
 $S:6}
 A.ald.prototype={
-$0(){++this.a.f},
+$0(){},
 $S:0}
 A.HC.prototype={
 H(a){var s,r,q,p,o=null,n=B.t2.geo(B.t2).e9(0),m=A.K(a).ax,l=m.d
