@@ -83823,46 +83823,47 @@ a08(){this.zh(0,new A.a63(),t.PR)
 this.zh(0,new A.a64(),t.Q1)}}
 A.a63.prototype={
 $2(a,b){return this.V4(a,b)},
-V4(a,b){var s=0,r=A.X(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f
+V4(a,b){var s=0,r=A.X(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e
 var $async$$2=A.Y(function(c,d){if(c===1){p=d
-s=q}while(true)switch(s){case 0:g=A.apH(null)
+s=q}while(true)switch(s){case 0:f=A.apH(null)
 q=3
 if(!b.d)b.a.$1(new A.Xg())
 s=6
 return A.a2(A.Mp(),$async$$2)
 case 6:o=d
-n=A.cg(J.b5(o.a,"token"))
+j=A.cg(J.b5(o.a,"token"))
+n=j==null?"":j
 m="error"
-s=n==null?7:9
+s=J.c(n,"")?7:9
 break
-case 7:j=t.N
+case 7:i=t.N
 s=10
-return A.a2(g.Ha(u.n,A.aC(["user_id",a.a],j,j),t.z),$async$$2)
+return A.a2(f.Ha(u.n,A.aC(["user_id",a.a],i,i),t.z),$async$$2)
 case 10:l=d
 m=J.b5(l.a,"status")
 if(J.c(m,"success")){o.NZ("String","token",J.b5(l.a,"token"))
 if(!b.d)b.a.$1(new A.nf())}else if(!b.d)b.a.$1(new A.q9())
 s=8
 break
-case 9:i=A.auj(n)
-s=Date.now()>i.a?11:13
+case 9:h=A.auj(n)
+s=Date.now()>h.a?11:13
 break
-case 11:j=t.N
+case 11:i=t.N
 s=14
-return A.a2(g.Ha(u.n,A.aC(["user_id",a.a],j,j),t.z),$async$$2)
+return A.a2(f.Ha(u.n,A.aC(["user_id",a.a],i,i),t.z),$async$$2)
 case 14:k=d
 m=J.b5(k.a,"status")
 if(J.c(m,"success")){o.NZ("String","token",J.b5(k.a,"token"))
 if(!b.d)b.a.$1(new A.nf())}else if(!b.d)b.a.$1(new A.q9())
 s=12
 break
-case 13:i=A.auj(n)
-if(Date.now()<=i.a)if(!b.d)b.a.$1(new A.nf())
+case 13:h=A.auj(n)
+if(Date.now()<=h.a)if(!b.d)b.a.$1(new A.nf())
 case 12:case 8:q=1
 s=5
 break
 case 3:q=2
-f=p
+e=p
 if(!b.d)b.a.$1(new A.q9())
 s=5
 break
