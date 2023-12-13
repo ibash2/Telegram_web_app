@@ -25287,15 +25287,16 @@ q7:function q7(){},
 vx:function vx(){},
 Xj:function Xj(){},
 xt:function xt(a){this.a=a},
-QJ:function QJ(a,b,c,d,e,f,g){var _=this
-_.f=a
-_.r=b
-_.w=c
-_.x=d
-_.y=e
-_.z=f
+QJ:function QJ(a,b,c,d,e,f,g,h){var _=this
+_.d=a
+_.e=b
+_.f=c
+_.r=d
+_.w=e
+_.x=f
+_.y=g
 _.a=null
-_.b=g
+_.b=h
 _.c=null},
 agB:function agB(a){this.a=a},
 agz:function agz(a){this.a=a},
@@ -83921,15 +83922,16 @@ A.q7.prototype={}
 A.vx.prototype={}
 A.Xj.prototype={}
 A.xt.prototype={
-ae(){var s="dark",r=J.c(Telegram.WebApp.colorScheme,s),q=A.aqO(Telegram.WebApp.backgroundColor),p=J.c(Telegram.WebApp.colorScheme,s)?A.aqO(Telegram.WebApp.backgroundColor):B.f2,o=J.c(Telegram.WebApp.colorScheme,s)?B.i:B.m,n=J.c(Telegram.WebApp.colorScheme,s)?B.Bw:B.i
-return new A.QJ(r,q,p,o,n,A.aG8(),B.j)}}
+ae(){var s="dark",r=Telegram.WebApp.initData,q=J.c(Telegram.WebApp.colorScheme,s),p=A.aqO(Telegram.WebApp.backgroundColor),o=J.c(Telegram.WebApp.colorScheme,s)?A.aqO(Telegram.WebApp.backgroundColor):B.f2,n=J.c(Telegram.WebApp.colorScheme,s)?B.i:B.m,m=J.c(Telegram.WebApp.colorScheme,s)?B.Bw:B.i
+return new A.QJ(r,q,p,o,n,m,A.aG8(),B.j)}}
 A.QJ.prototype={
-aC(){J.FQ(Telegram.WebApp.BackButton,!1)
+aC(){var s=this
+J.FQ(Telegram.WebApp.BackButton,!1)
 J.FQ(Telegram.WebApp.MainButton,!1)
-if(!this.f)Telegram.WebApp.setHeaderColor("#F2F2F7")
-this.z.E(0,new A.pg("sdfsfdsd"))
-this.aT()},
-H(a){return A.zF(new A.w5(new A.agB(this),this.z,null,null,t._o))}}
+if(!s.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
+s.y.E(0,new A.pg(s.d))
+s.aT()},
+H(a){return A.zF(new A.w5(new A.agB(this),this.y,null,null,t._o))}}
 A.agB.prototype={
 $2(a,b){var s=null,r="public/images/pair.png"
 if(b instanceof A.vx)return new A.bh(B.Dq,A.qv(A.ds(A.b([B.SD,B.jP,B.SQ,B.SK,B.MW,A.dv(new A.JU("Create new bot",new A.agz(a),s),s,1/0),B.MU,new A.wG("Add a key",A.fx("public/images/cross.png",4),new A.agA(this.a,a),s),B.a4,B.Jd,B.ev,new A.w8(A.b([A.fx(r,3),A.fx(r,3),A.fx(r,3)],t.jm),A.b(["05","05","05"],t.s),s)],t.p),B.t,B.w),s,s),s)
