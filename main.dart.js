@@ -25243,11 +25243,12 @@ vw:function vw(){},
 FC:function FC(){},
 Xo:function Xo(){},
 xt:function xt(a){this.a=a},
-QO:function QO(a,b,c){var _=this
-_.e=a
-_.f=b
+QO:function QO(a,b,c,d){var _=this
+_.d=a
+_.e=b
+_.f=c
 _.a=null
-_.b=c
+_.b=d
 _.c=null},
 agB:function agB(a){this.a=a},
 agz:function agz(a){this.a=a},
@@ -83933,11 +83934,12 @@ A.vw.prototype={}
 A.FC.prototype={}
 A.Xo.prototype={}
 A.xt.prototype={
-ac(){return new A.QO(J.c(Telegram.WebApp.colorScheme,"dark"),A.aG9(),B.j)}}
+ac(){return new A.QO(Telegram.WebApp.initData,J.c(Telegram.WebApp.colorScheme,"dark"),A.aG9(),B.j)}}
 A.QO.prototype={
-aB(){this.f.E(0,new A.pg("query_id=AAHDeggyAAAAAMN6CDIgYEuC&user=%7B%22id%22%3A839416515%2C%22first_name%22%3A%22Ibragim%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22lbraqim%22%2C%22language_code%22%3A%22ru%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1701339510&hash=183af7302191bd326ce8c17515f07cd07d29c5fa8b0b63630e873114046fa80a"))
-if(!this.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
-this.aS()},
+aB(){var s=this
+s.f.E(0,new A.pg(s.d))
+if(!s.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
+s.aS()},
 H(a){return A.zG(new A.w4(new A.agB(this),this.f,null,null,t._o))}}
 A.agB.prototype={
 $2(a,b){var s=null,r="public/images/pair.png"
