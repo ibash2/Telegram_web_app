@@ -83416,13 +83416,12 @@ A.all.prototype={
 $0(){},
 $S:0}
 A.aln.prototype={
-$0(){var s,r=this.a
-if(r.f===4)J.XA(r.d,"Start")
-s=r.f
-if(s<5){++s
-r.f=s
-J.XA(r.d,"Next to step "+(s+2)+" / 6")
-r.ai(new A.alk())}},
+$0(){var s=this.a,r=s.f
+if(r===4)J.XA(s.d,"Start")
+else if(r<5){++r
+s.f=r
+J.XA(s.d,"Next to step "+(r+2)+" / 6")
+s.ai(new A.alk())}},
 $S:6}
 A.alk.prototype={
 $0(){},
