@@ -83704,7 +83704,7 @@ break
 case 6:A.q8("token is not expire")
 i=t.N
 s=9
-return A.a4(g.TA("https://77.232.130.102/v1/token",A.aC(["user_id",a.a],i,i),t.z),$async$$2)
+return A.a4(g.TA("https://1957-195-19-121-231.ngrok-free.app/v1/token",A.aC(["user_id",a.a],i,i),t.z),$async$$2)
 case 9:m=d
 n=J.bj(m.a,"status")
 if(J.c(n,"success")){i=window.localStorage
@@ -83718,7 +83718,7 @@ n="success"}case 7:s=J.c(n,"success")?10:11
 break
 case 10:i=t.z
 s=12
-return A.a4(g.akc("https://77.232.130.102/v1/get_bots",A.auH(A.aC(["accept","application/json","Authorization","Bearer "+A.h(o)],t.N,i)),i),$async$$2)
+return A.a4(g.akc("https://1957-195-19-121-231.ngrok-free.app/v1/get_bots",A.auH(A.aC(["accept","application/json","Authorization","Bearer "+A.h(o)],t.N,i)),i),$async$$2)
 case 12:l=d
 i=A.aIu(l.a)
 if(!b.d)b.a.$1(new A.Fz(i))
