@@ -83812,8 +83812,9 @@ s=9
 return A.a3(f.H9(u.E,A.aE(["user_id",a.a],i,i),t.z),$async$$2)
 case 9:n=d
 m=J.ba(n.a,"status")
-if(J.c(m,"success")){window.localStorage.setItem("token",o)
-J.ba(n.a,"token")
+if(J.c(m,"success")){i=window.localStorage
+i.toString
+i.setItem("token",J.ba(n.a,"token"))
 if(!b.d)b.a.$1(new A.nf())}else if(!b.d)b.a.$1(new A.q9())
 s=7
 break
@@ -83826,8 +83827,9 @@ s=13
 return A.a3(f.H9(u.E,A.aE(["user_id",a.a],i,i),t.z),$async$$2)
 case 13:l=d
 k=J.ba(l.a,"status")
-if(J.c(k,"success")){window.localStorage.setItem("token",o)
-J.ba(l.a,"token")
+if(J.c(k,"success")){i=window.localStorage
+i.toString
+i.setItem("token",J.ba(l.a,"token"))
 if(!b.d)b.a.$1(new A.nf())}else if(!b.d)b.a.$1(new A.q9())
 s=11
 break
