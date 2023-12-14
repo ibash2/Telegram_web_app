@@ -83915,8 +83915,8 @@ A.Xg.prototype={}
 A.xt.prototype={
 ae(){return new A.QG(J.c(Telegram.WebApp.colorScheme,"dark"),A.aG3(),B.j)}}
 A.QG.prototype={
-aC(){this.f.E(0,new A.pi("query_id=AAHDeggyAAAAAMN6CDIgYEuC&user=%7B%22id%22%3A839416515%2C%22first_name%22%3A%22Ibragim%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22lbraqim%22%2C%22language_code%22%3A%22ru%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1701339510&hash=183af7302191bd326ce8c17515f07cd07d29c5fa8b0b63630e873114046fa80a"))
-if(!this.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
+aC(){if(!this.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
+this.f.E(0,new A.pi("query_id=AAHDeggyAAAAAMN6CDIgYEuC&user=%7B%22id%22%3A839416515%2C%22first_name%22%3A%22Ibragim%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22lbraqim%22%2C%22language_code%22%3A%22ru%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1701339510&hash=183af7302191bd326ce8c17515f07cd07d29c5fa8b0b63630e873114046fa80a"))
 this.aT()},
 H(a){return A.zF(new A.w4(new A.agv(this),this.f,null,null,t._o))}}
 A.agv.prototype={
