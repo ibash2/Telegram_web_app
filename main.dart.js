@@ -83732,7 +83732,7 @@ n="success"}case 11:case 7:s=J.c(n,"success")?14:15
 break
 case 14:i=t.z
 s=16
-return A.a4(f.akc("https://1957-195-19-121-231.ngrok-free.app/v1/get_bots",A.auH(A.ay(["accept","application/json","Authorization","Bearer "+A.h(o)],t.N,i)),i),$async$$2)
+return A.a4(f.akc("https://1957-195-19-121-231.ngrok-free.app/v1/get_bots",A.auH(A.ay(["accept","application/json","Authorization","Bearer "+A.h(window.localStorage.getItem("token"))],t.N,i)),i),$async$$2)
 case 16:k=d
 i=A.aIu(k.a)
 if(!b.d)b.a.$1(new A.Fz(i))
