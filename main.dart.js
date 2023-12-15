@@ -83198,7 +83198,7 @@ throw A.d(new A.N0(m,b,new A.C5(o,d,n)))}}
 A.qs.prototype={
 ip(){return A.ay(["pair",this.a,"stop_loss",this.b,"take_profit",this.c],t.N,t.z)}}
 A.Yt.prototype={
-ip(){return A.ay(["data",this.a],t.N,t.z)}}
+ip(){return A.ay(["bots",this.a],t.N,t.z)}}
 A.adb.prototype={
 $1(a){var s
 t.a.a(a)
@@ -83757,7 +83757,7 @@ s=J.c(n,"success")?14:15
 break
 case 14:h=t.z
 s=16
-return A.a4(d.aka("https://77.232.130.102/v1/user_data",A.aqh(A.ay(["accept","application/json","Authorization","Bearer "+A.h(window.localStorage.getItem("token"))],t.N,h)),h),$async$$2)
+return A.a4(d.aka("https://9b71-195-19-120-3.ngrok-free.app/v1/user_data",A.aqh(A.ay(["accept","application/json","Authorization","Bearer "+A.h(window.localStorage.getItem("token"))],t.N,h)),h),$async$$2)
 case 16:k=a1
 A.jV(k.a)
 h=A.aIw(J.b6(k.a,"data"))
