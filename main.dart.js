@@ -83756,7 +83756,7 @@ s=J.c(n,"success")?14:15
 break
 case 14:h=t.z
 s=16
-return A.a4(d.aka("https://77.232.130.102/v1/user_data",A.aqh(A.ay(["accept","application/json","Authorization","Bearer "+A.h(window.localStorage.getItem("token"))],t.N,h)),h),$async$$2)
+return A.a4(d.aka("https://9b71-195-19-120-3.ngrok-free.app/v1/user_data",A.aqh(A.ay(["accept","application/json","Authorization","Bearer "+A.h(window.localStorage.getItem("token"))],t.N,h)),h),$async$$2)
 case 16:k=a1
 if(!b.d)b.a.$1(new A.ng())
 A.jV(k.a)
