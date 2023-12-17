@@ -83781,11 +83781,12 @@ $0(){},
 $S:0}
 A.alN.prototype={
 $0(){var s,r,q=this.b,p=q.f
-if(p<5){p=q.f=p+1
+if(p<5){if(p===4)this.a.a=!0
+p=q.f=p+1
 s=q.d
 r=J.bW(s)
-if(p===5){this.a.a=!0
-r.scc(s,"Start")}else r.scc(s,"Next to step "+(p+2)+" / 6")
+if(p===5)r.scc(s,"Start")
+else r.scc(s,"Next to step "+(p+2)+" / 6")
 q.ah(new A.alK())}if(this.a.a)A.hn($.cO().a)},
 $S:5}
 A.alK.prototype={
