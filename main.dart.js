@@ -83561,7 +83561,7 @@ s.aI()},
 H(a){var s,r,q=this,p=null,o=A.ek(12),n=A.J(a).ax,m=n.d
 n=m==null?n.b:m
 m=t.p
-o=A.bL(A.t_(new A.b3(B.DK,A.bH(A.a([A.dR("public/images/pair.png",4),B.di,B.T9,A.lW(A.cc(p,p,B.p,p,p,p,p,p,p,p,p,p,p)),A.dR("public/images/next.png",3)],m),B.n,B.v,B.m),p),n,0,p,B.z,new A.aen(),p,new A.cj(o,B.w),B.z),48,p)
+o=A.bL(A.t_(new A.b3(B.DK,A.bH(A.a([A.dR("public/images/pair.png",4),B.di,B.T8,A.lW(A.cc(p,p,B.p,p,p,p,p,p,p,p,p,p,p)),A.dR("public/images/next.png",3)],m),B.n,B.v,B.m),p),n,0,p,B.z,new A.aen(),p,new A.cj(o,B.w),B.z),48,p)
 n=A.J(a).ax
 s=n.d
 n=s==null?n.b:s
@@ -83698,8 +83698,8 @@ r=q==null?r.b:q
 q=A.ek(16)
 p=A.J(a).aeV(B.i)
 o=A.a5x(A.bR(A.a([A.bH(A.a([B.yI,B.hm,n.w===B.ht?A.dR(l,4):B.bM],k),B.n,B.v,B.m),A.cc(m,m,B.p,B.bK,m,m,m,0.5,m,m,m,m,121)],k),B.n,B.v,B.m),new A.ali(n))
-p=A.bL(new A.b3(B.bq,A.bH(A.a([B.Tg,A.bL(A.bH(A.a([new A.kU(p,A.av9(B.tx,new A.alj(n),A.a([o,A.a5x(A.bL(A.bH(A.a([B.T6,B.hm,n.w===B.yR?A.dR(l,4):B.bM],k),B.n,B.v,B.m),m,135),new A.alk(n))],k)),m)],k),B.n,B.ta,B.m),m,150)],k),B.n,B.ax,B.m),m),48,m)
-return A.pk(m,new A.b3(B.aR,A.bR(A.a([B.zB,j,B.a_,s,B.Jk,B.a_,A.cc(m,A.bR(A.a([p,n.w===B.ht?A.bR(A.a([B.bF,A.bL(new A.b3(B.bq,A.bH(A.a([B.T7,A.bL(A.B3(n.y,B.bK,20,B.dP,m,B.eH,!1,B.ay,B.cw),30,100)],k),B.n,B.ax,B.m),m),48,m)],k),B.n,B.v,B.m):B.bM],k),B.n,B.v,B.m),B.p,m,m,new A.bY(r,m,m,q,m,m,B.W),m,m,m,m,m,m,1/0),B.a_],k),B.n,B.v,B.m),m))}}
+p=A.bL(new A.b3(B.bq,A.bH(A.a([B.Tg,A.bL(A.bH(A.a([new A.kU(p,A.av9(B.tx,new A.alj(n),A.a([o,A.a5x(A.bL(A.bH(A.a([B.T5,B.hm,n.w===B.yR?A.dR(l,4):B.bM],k),B.n,B.v,B.m),m,135),new A.alk(n))],k)),m)],k),B.n,B.ta,B.m),m,150)],k),B.n,B.ax,B.m),m),48,m)
+return A.pk(m,new A.b3(B.aR,A.bR(A.a([B.zB,j,B.a_,s,B.Jk,B.a_,A.cc(m,A.bR(A.a([p,n.w===B.ht?A.bR(A.a([B.bF,A.bL(new A.b3(B.bq,A.bH(A.a([B.T6,A.bL(A.B3(n.y,B.bK,20,B.dP,m,B.eH,!1,B.ay,B.cw),30,100)],k),B.n,B.ax,B.m),m),48,m)],k),B.n,B.v,B.m):B.bM],k),B.n,B.v,B.m),B.p,m,m,new A.bY(r,m,m,q,m,m,B.W),m,m,m,m,m,m,1/0),B.a_],k),B.n,B.v,B.m),m))}}
 A.ale.prototype={
 $1(a){var s=this.a
 s.ag(new A.ald(s,a))},
@@ -83802,7 +83802,7 @@ l.push(o)
 s=m.r
 s.push(n)
 r=A.lW(new A.dn("STEP "+(a+1),p))
-m=a!==0?A.ac5(B.T8,B.p,p,p,p,new A.alT(m),p,p):B.bM
+m=a!==0?A.ac5(B.T7,B.p,p,p,p,new A.alT(m),p,p):B.bM
 q=t.p
 return A.bR(A.a([B.yj,A.bH(A.a([r,m],q),B.n,B.v,B.m),A.I6(l[a],s[a],p,!0,"Intermediate Take Profit, %","Amount, %",p)],q),B.n,B.v,B.m)},
 $S:184}
@@ -84193,7 +84193,7 @@ for(m=0;m<p;++m)l[m]=A.h(q[m].c)
 p=q.length
 k=J.m8(p,t.lu)
 for(m=0;m<p;++m)k[m]=A.dR("public/images/pair.png",3)
-q=new A.qA(k,n,l,j)}return new A.b3(B.DA,A.qI(A.bR(A.a([B.SN,B.jV,B.Ta,B.SZ,B.N_,s,B.yh,r,B.Jp,B.dj,q],t.p),B.n,B.v,B.m),j,j),j)}if(b instanceof A.qi)return B.Bb
+q=new A.qA(k,n,l,j)}return new A.b3(B.DA,A.qI(A.bR(A.a([B.SN,B.jV,B.T9,B.SZ,B.N_,s,B.yh,r,B.Jp,B.dj,q],t.p),B.n,B.v,B.m),j,j),j)}if(b instanceof A.qi)return B.Bb
 return A.qI(A.dR("public/images/Subtract.png",4),j,j)},
 $S:508}
 A.agW.prototype={
@@ -84250,7 +84250,7 @@ A.Rb.prototype={
 aA(){Telegram.WebApp.expand()
 this.aR()},
 H(a){var s=null,r=t.w
-return A.pk(B.i,A.aaL(new A.b3(B.DG,A.bR(A.a([B.T1,B.N0,B.El,B.yk,B.En,B.yk,B.Em,A.bL(s,A.bK(a,s,r).w.a.b-690<=0?28:A.bK(a,s,r).w.a.b-690,s),A.bL(new A.ym("Start",new A.ah9(a),s),s,1/0),B.MX,B.SP],t.p),B.n,B.v,B.m),s),s,B.a6))}}
+return A.pk(B.i,A.aaL(new A.b3(B.DG,A.bR(A.a([B.Ta,B.N0,B.El,B.yk,B.En,B.yk,B.Em,A.bL(s,A.bK(a,s,r).w.a.b-690<=0?28:A.bK(a,s,r).w.a.b-690,s),A.bL(new A.ym("Start",new A.ah9(a),s),s,1/0),B.MX,B.SP],t.p),B.n,B.v,B.m),s),s,B.a6))}}
 A.ah9.prototype={
 $0(){var s=A.a6x(new A.ah8(),B.u,B.u,t.z)
 A.hF(this.a,!1).k0(s)},
@@ -89059,8 +89059,8 @@ B.Td=new A.bE("Insurance orders",null,B.cz,B.aI,null,null,null,null,null,null)
 B.SR=new A.bE("Stop Loss",null,B.cz,B.aI,null,null,null,null,null,null)
 B.J0=new A.bG([0,B.Td,1,B.SR],t.yn)
 B.yH=new A.bE("Manually",null,B.cz,B.aI,null,null,null,null,null,null)
-B.T2=new A.bE("Automatic",null,B.cz,B.aI,null,null,null,null,null,null)
-B.J1=new A.bG([0,B.yH,1,B.T2],t.yn)
+B.T1=new A.bE("Automatic",null,B.cz,B.aI,null,null,null,null,null,null)
+B.J1=new A.bG([0,B.yH,1,B.T1],t.yn)
 B.GL=A.a(s(["KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","Digit0","Minus","Equal","BracketLeft","BracketRight","Backslash","Semicolon","Quote","Backquote","Comma","Period","Slash"]),t.s)
 B.jo=new A.bc(47,{KeyA:"a",KeyB:"b",KeyC:"c",KeyD:"d",KeyE:"e",KeyF:"f",KeyG:"g",KeyH:"h",KeyI:"i",KeyJ:"j",KeyK:"k",KeyL:"l",KeyM:"m",KeyN:"n",KeyO:"o",KeyP:"p",KeyQ:"q",KeyR:"r",KeyS:"s",KeyT:"t",KeyU:"u",KeyV:"v",KeyW:"w",KeyX:"x",KeyY:"y",KeyZ:"z",Digit1:"1",Digit2:"2",Digit3:"3",Digit4:"4",Digit5:"5",Digit6:"6",Digit7:"7",Digit8:"8",Digit9:"9",Digit0:"0",Minus:"-",Equal:"=",BracketLeft:"[",BracketRight:"]",Backslash:"\\",Semicolon:";",Quote:"'",Backquote:"`",Comma:",",Period:".",Slash:"/"},B.GL,t.li)
 B.nh=A.a(s(["*","+","-",".","/","0","1","2","3","4","5","6","7","8","9","Alt","AltGraph","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","Clear","Control","Delete","End","Enter","Home","Insert","Meta","PageDown","PageUp","Shift"]),t.s)
@@ -89242,8 +89242,8 @@ B.tC=new A.b3(B.DJ,B.Be,null)
 B.cD=new A.Oc(1,"down")
 B.b3=new A.y(4287532691)
 B.QH=new A.k(!0,B.b3,null,"SF Pro",null,null,13,B.k,null,-0.08,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T5=new A.bE("KEY SETTINGS",null,B.QH,null,null,null,null,null,null,null)
-B.GT=A.a(s([B.T5]),t.p)
+B.T4=new A.bE("KEY SETTINGS",null,B.QH,null,null,null,null,null,null,null)
+B.GT=A.a(s([B.T4]),t.p)
 B.Lp=new A.zY(B.ar,B.v,B.m,B.n,null,B.cD,null,B.GT,null)
 B.Kg=new A.b3(B.aR,B.Lp,null)
 B.aE=new A.Lf(0,"fill")
@@ -89279,8 +89279,8 @@ B.KZ=new A.tk(1,"scroll")
 B.L_=new A.tk(3,"scale")
 B.L0=new A.tk(4,"unknown")
 B.Er=new A.ih(1,"itemTwo")
-B.T3=new A.bE("Limit Order",null,null,null,null,null,null,null,null,null)
-B.L1=new A.tn(B.Er,B.T3,null,t.kD)
+B.T2=new A.bE("Limit Order",null,null,null,null,null,null,null,null,null)
+B.L1=new A.tn(B.Er,B.T2,null,t.kD)
 B.Te=new A.bE("Market Order",null,null,null,null,null,null,null,null,null)
 B.L2=new A.tn(B.mS,B.Te,null,t.kD)
 B.L3=new A.a7i(1,"under")
@@ -89540,10 +89540,10 @@ B.N0=new A.cH(null,63,null,null)
 B.jV=new A.cH(null,8,null,null)
 B.bM=new A.cH(null,null,null,null)
 B.Qh=new A.k(!0,null,null,"SF Pro",null,null,22,B.fn,null,-0.26,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T4=new A.bE("You don t have bots yet",null,B.Qh,B.aI,null,null,null,null,null,null)
+B.T3=new A.bE("You don t have bots yet",null,B.Qh,B.aI,null,null,null,null,null,null)
 B.Ph=new A.k(!0,null,null,"SF Pro",null,null,15,B.k,null,-0.23,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.SV=new A.bE("All your bots will be displayed here",null,B.Ph,B.aI,null,null,null,null,null,null)
-B.FD=A.a(s([B.T4,B.SV]),t.p)
+B.FD=A.a(s([B.T3,B.SV]),t.p)
 B.Cq=new A.lM(B.a6,B.e8,B.m,B.n,null,B.cD,null,B.FD,null)
 B.N1=new A.cH(null,210,B.Cq,null)
 B.N2=new A.u0(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -89963,25 +89963,25 @@ B.SZ=new A.bE("+234.35",null,B.Qg,null,null,null,null,null,null,null)
 B.Ra=new A.k(!0,B.i,null,"SF Pro",null,null,12,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.T_=new A.bE("Soon",null,B.Ra,B.aI,null,null,null,null,null,null)
 B.T0=new A.bE("From the last order",null,B.ay,null,null,null,null,null,null,null)
-B.Qx=new A.k(!0,null,null,"SF Pro Display",null,null,32,B.br,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T1=new A.bE("Anesthezia in Telegram",null,B.Qx,B.aI,null,null,null,null,null,null)
-B.T6=new A.bE("Market Order",null,B.ay,null,null,null,null,null,null,null)
-B.T7=new A.bE("Price for a limit order",null,B.cy,null,null,null,null,null,null,null)
+B.T5=new A.bE("Market Order",null,B.ay,null,null,null,null,null,null,null)
+B.T6=new A.bE("Price for a limit order",null,B.cy,null,null,null,null,null,null,null)
 B.Ch=new A.y(4294916912)
 B.Qs=new A.k(!0,B.Ch,null,"SF Pro",null,null,16,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T8=new A.bE("Delete",null,B.Qs,null,null,null,null,null,null,null)
+B.T7=new A.bE("Delete",null,B.Qs,null,null,null,null,null,null,null)
 B.Oh=new A.e0("BTC",null,null,B.am,B.yE)
 B.Oc=new A.e0("USDT",null,null,B.am,B.yC)
 B.FC=A.a(s([B.Oh,B.Oc]),t.VO)
 B.Oe=new A.e0(null,B.FC,null,B.am,null)
-B.T9=new A.bE(null,B.Oe,null,null,null,null,null,null,null,null)
+B.T8=new A.bE(null,B.Oe,null,null,null,null,null,null,null,null)
 B.Q5=new A.k(!0,null,null,"SF Pro Rounded",null,null,40,B.br,null,0.38,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Og=new A.e0("15 194.35 ",null,null,B.am,B.Q5)
 B.Sr=new A.k(!0,B.b3,null,"SF Pro Rounded",null,null,40,B.br,null,0.38,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Ob=new A.e0("$",null,null,B.am,B.Sr)
 B.GI=A.a(s([B.Og,B.Ob]),t.VO)
 B.O7=new A.e0(null,B.GI,null,B.am,null)
-B.Ta=new A.bE(null,B.O7,null,null,null,null,null,null,null,null)
+B.T9=new A.bE(null,B.O7,null,null,null,null,null,null,null,null)
+B.Qx=new A.k(!0,null,null,"SF Pro Display",null,null,32,B.br,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Ta=new A.bE("Welcome to Anesthezia!",null,B.Qx,B.aI,null,null,null,null,null,null)
 B.Tb=new A.bE("Input type",null,B.cy,null,null,null,null,null,null,null)
 B.Tc=new A.bE("Strategy",null,B.ay,null,null,null,null,null,null,null)
 B.Tf=new A.bE("Long",null,B.ay,null,null,null,null,null,null,null)
