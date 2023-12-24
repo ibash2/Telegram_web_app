@@ -83962,21 +83962,21 @@ A.aeV.prototype={
 $0(){},
 $S:0}
 A.aeY.prototype={
-$1(a){var s,r,q,p="strategy"
-if(a){s=this.a
+$1(a){var s,r,q="strategy",p=!a
+if(p){s=this.a
 s=!s.w&&!s.x}else s=!1
-if(s){s=this.b.al(t.Pu)
-s.toString
-s.f.qH(A.XV("Need text"))}else{s=this.a
+if(s){p=this.b.al(t.Pu)
+p.toString
+p.f.qH(A.XV("Need text"))}else{s=this.a
 s.x=s.y=a
 r=$.nD
-if(!a){r.n(0,p,null)
-$.nD.n(0,"defends",null)}else{r.n(0,p,B.yC)
-$.nD.n(0,"defends",B.io)}r=$.nD
-r=r.gaW(r)
-r=A.az(r,!0,A.l(r).h("m.E"))
-q=A.a6(r).h("b_<1>")
-$.asS=A.az(new A.b_(r,new A.aeS(),q),!0,q.h("m.E"))
+if(p){r.n(0,q,null)
+$.nD.n(0,"defends",null)}else{r.n(0,q,B.yC)
+$.nD.n(0,"defends",B.io)}p=$.nD
+p=p.gaW(p)
+p=A.az(p,!0,A.l(p).h("m.E"))
+r=A.a6(p).h("b_<1>")
+$.asS=A.az(new A.b_(p,new A.aeS(),r),!0,r.h("m.E"))
 s.ag(new A.aeT())}},
 $S:7}
 A.aeS.prototype={
@@ -83989,21 +83989,21 @@ A.aeZ.prototype={
 $1(a){if(a.p(0,B.M))return B.f9},
 $S:23}
 A.af_.prototype={
-$1(a){var s,r,q
-if(a){s=this.a
+$1(a){var s,r,q=!a
+if(q){s=this.a
 s=!s.w&&!s.y}else s=!1
-if(s){s=this.b.al(t.Pu)
-s.toString
-s.f.qH(A.XV("Need text"))}else{s=this.a
+if(s){q=this.b.al(t.Pu)
+q.toString
+q.f.qH(A.XV("Need text"))}else{s=this.a
 s.x=a
 r=$.nD
-if(!a)r.n(0,"defends",null)
+if(q)r.n(0,"defends",null)
 else r.n(0,"defends",B.io)
-r=$.nD
-r=r.gaW(r)
-r=A.az(r,!0,A.l(r).h("m.E"))
-q=A.a6(r).h("b_<1>")
-$.asS=A.az(new A.b_(r,new A.aeQ(),q),!0,q.h("m.E"))
+q=$.nD
+q=q.gaW(q)
+q=A.az(q,!0,A.l(q).h("m.E"))
+r=A.a6(q).h("b_<1>")
+$.asS=A.az(new A.b_(q,new A.aeQ(),r),!0,r.h("m.E"))
 s.ag(new A.aeR())}},
 $S:7}
 A.aeQ.prototype={
@@ -84016,20 +84016,20 @@ A.af0.prototype={
 $1(a){if(a.p(0,B.M))return B.f9},
 $S:23}
 A.af1.prototype={
-$1(a){var s,r,q=this,p="take_profit"
-if(a){s=q.a
+$1(a){var s,r=this,q="take_profit",p=!a
+if(p){s=r.a
 s=!s.x&&!s.y}else s=!1
-if(s){s=q.b.al(t.Pu)
-s.toString
-s.f.qH(A.XV("Need text"))}else{q.a.w=a
+if(s){p=r.b.al(t.Pu)
+p.toString
+p.f.qH(A.XV("Need text"))}else{r.a.w=a
 s=$.nD
-if(!a)s.n(0,p,null)
-else s.n(0,p,B.yE)
-s=$.nD
-s=s.gaW(s)
-s=A.az(s,!0,A.l(s).h("m.E"))
-r=A.a6(s).h("b_<1>")
-$.asS=A.az(new A.b_(s,new A.aeO(),r),!0,r.h("m.E"))}q.a.ag(new A.aeP())},
+if(p)s.n(0,q,null)
+else s.n(0,q,B.yE)
+p=$.nD
+p=p.gaW(p)
+p=A.az(p,!0,A.l(p).h("m.E"))
+s=A.a6(p).h("b_<1>")
+$.asS=A.az(new A.b_(p,new A.aeO(),s),!0,s.h("m.E"))}r.a.ag(new A.aeP())},
 $S:7}
 A.aeO.prototype={
 $1(a){return a!=null},
