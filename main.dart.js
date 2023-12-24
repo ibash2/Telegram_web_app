@@ -84293,27 +84293,26 @@ r.pS(s,A.b1(new A.amd(p,q)))
 q.aP()},
 H(a){return A.YV(this.f,new A.am9(this),t.Gq,t.fA)}}
 A.amc.prototype={
-$0(){var s,r,q=this
-if(J.c($.b8().a.h(0,"active_buy"),!1))B.b.eq(q.b.x,1)
-if(J.c($.b8().a.h(0,"active_def"),!1))B.b.eq(q.b.x,2)
-if(J.c($.b8().a.h(0,"active_tp"),!1))B.b.eq(q.b.x,3)
-s=q.b
-if(s.r===0){q.a.a=!1
-J.Gr(s.e)
-J.Gr(s.d)
-r=s.c
-r.toString
-A.ek(r,!1).ep()}r=s.r
-if(r>0){q.a.a=!1;--r
-s.r=r;--s.w
-J.atz(s.d,"Next to step "+(r+2)+" / 6")
-s.ag(new A.amb())}},
+$0(){var s,r=this.b
+if(r.r===0){this.a.a=!1
+J.Gr(r.e)
+J.Gr(r.d)
+s=r.c
+s.toString
+A.ek(s,!1).ep()}s=r.r
+if(s>0){this.a.a=!1;--s
+r.r=s;--r.w
+J.atz(r.d,"Next to step "+(s+2)+" / 6")
+r.ag(new A.amb())}},
 $S:6}
 A.amb.prototype={
 $0(){},
 $S:0}
 A.amd.prototype={
 $0(){var s,r,q,p,o=this.b;++o.w
+if(J.c($.b8().a.h(0,"active_buy"),!1))B.b.eq(o.x,1)
+if(J.c($.b8().a.h(0,"active_def"),!1))B.b.eq(o.x,2)
+if(J.c($.b8().a.h(0,"active_tp"),!1))B.b.eq(o.x,3)
 s=this.a
 if(s.a){A.k7($.b8().a)
 o.f.E(0,new A.nZ($.b8().a))}r=o.r
