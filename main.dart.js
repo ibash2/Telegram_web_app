@@ -84346,17 +84346,19 @@ A.amg.prototype={
 $0(){},
 $S:0}
 A.ami.prototype={
-$0(){var s,r,q,p,o
+$0(){var s,r,q,p,o,n,m
 A.j0($.Ya())
 s=this.b;++s.w
 r=this.a
 if(r.a){A.j0($.be().a)
 s.f.E(0,new A.nZ($.be().a))}q=s.r
-if(q<$.Ya().length-1)if($.hs){q=s.r=q+1
-p=s.d
-o=J.bZ(p)
-if(q===5){r.a=!0
-o.scc(p,"Start")}else o.scc(p,"Next to step "+(q+2)+" / 6")
+p=$.Ya().length
+o=p-1
+if(q<o)if($.hs){q=s.r=q+1
+n=s.d
+m=J.bZ(n)
+if(q===o){r.a=!0
+m.scc(n,"Start")}else m.scc(n,"Next to step "+(q+2)+" / "+p)
 s.ag(new A.amf())}else{s=s.c.an(t.Pu)
 s.toString
 s.f.J1(A.aAb("To continue, fill in all fields"))}},
