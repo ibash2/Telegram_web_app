@@ -84048,11 +84048,11 @@ A.im.prototype={
 G(){return"InsuranceType."+this.b}}
 A.xh.prototype={
 ac(){var s,r,q,p,o=$.be().a.i(0,"io_count")
-o=A.fP(A.h(o==null?"0":o))
+o=A.fP(A.h(o==null?"":o))
 s=$.be().a.i(0,"io_step")
-s=A.fP(A.h(s==null?"0":s))
+s=A.fP(A.h(s==null?"":s))
 r=$.be().a.i(0,"stop_loss")
-r=A.fP(A.h(r==null?"0":r))
+r=A.fP(A.h(r==null?"":r))
 q=$.be().a.i(0,"io_mrt")
 if(q==null)q=2
 p=$.be().a.i(0,"io_step_mrt")
@@ -84242,7 +84242,7 @@ return new A.Ve(n,o,s,new A.pR(r),q,A.fP(A.h(p==null?"":p)),new A.pU(!0),new A.p
 A.Ve.prototype={
 au(){var s,r,q=this
 $.fX=!1
-s=J.c($.be().a.i(0,"take_type"),"MANUAL")?q.e=0:q.e=1
+s=J.c($.be().a.i(0,"take_type"),"AUTO")?q.e=1:q.e=0
 if(s===0){q.e=0
 r=B.b.S(q.f,q.r)
 if(r.length!==0)$.fX=A.j1(r)}else if(s===1){q.e=1
