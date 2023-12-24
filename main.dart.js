@@ -84057,27 +84057,29 @@ au(){var s=this,r=J.c($.be().a.i(0,"def_type"),"IO")?s.as=0:s.as=1,q=t.PF
 if(r===1)$.fX=A.j1(A.a([s.f],q))
 else $.fX=A.j1(A.a([s.d,s.e],q))
 s.aP()},
-m(){var s,r,q=this,p=$.be().a
-p.n(0,"def_type",q.as===0?"IO":"SL")
-p=q.d
-$.be().a.n(0,"io_count",A.hs(p.a.a,null))
-s=q.e
-$.be().a.n(0,"io_step",A.k6(s.a.a))
-r=$.be().a
-r.n(0,"io_mrt",q.r.a?A.k6(J.aq1(q.x.a,1)):1)
-r=$.be().a
-r.n(0,"io_step_mrt",q.w.a?A.k6(J.aq1(q.y.a,1)):1)
-r=$.be().a
-r.n(0,"stop_loss",q.as===0?0:A.k6(q.f.a.a))
+m(){var s,r=this,q=$.be().a
+q.n(0,"def_type",r.as===0?"IO":"SL")
+q=$.be().a
+q.n(0,"io_count",r.as===1?0:A.hs(r.d.a.a,null))
+q=$.be().a
+q.n(0,"io_step",r.as===1?0:A.k6(r.e.a.a))
+q=$.be().a
+q.n(0,"io_mrt",r.r.a?A.k6(J.aq1(r.x.a,1)):1)
+q=$.be().a
+q.n(0,"io_step_mrt",r.w.a?A.k6(J.aq1(r.y.a,1)):1)
+q=$.be().a
+q.n(0,"stop_loss",r.as===0?0:A.k6(r.f.a.a))
 $.be().a.n(0,"io_calculate_type","LO")
-r=p.af$=$.aL()
-p.U$=0
-s.af$=r
-s.U$=0
-s=q.f
-s.af$=r
-s.U$=0
-q.aN()},
+q=r.d
+s=q.af$=$.aL()
+q.U$=0
+q=r.e
+q.af$=s
+q.U$=0
+q=r.f
+q.af$=s
+q.U$=0
+r.aN()},
 H(a){var s,r,q,p,o,n,m,l=this,k=null,j=l.as,i=A.bE(A.aqp(B.Jp,j,new A.agm(l),t.S),k,1/0)
 if(j===1)j=A.bO(A.a([B.X,A.Ir(l.f,k,!1,new A.agn(l),"Stop Loss, %",k),B.JX],t.p),B.n,B.w,B.m)
 else{j=A.d8(16)
