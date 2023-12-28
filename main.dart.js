@@ -25359,8 +25359,9 @@ this.c=null},
 on:function on(a,b){this.c=a
 this.a=b},
 R_:function R_(a,b,c){var _=this
-_.d=a
-_.e=b
+_.d=1
+_.e=a
+_.f=b
 _.a=null
 _.b=c
 _.c=null},
@@ -84792,16 +84793,19 @@ return A.c7(l,A.bW(A.a([s,B.br,r],n),B.n,B.o),B.p,l,l,new A.bM(k,l,l,j,l,l,B.Q),
 A.on.prototype={
 ad(){return new A.R_(Telegram.WebApp.MainButton,Telegram.WebApp.BackButton,B.j)}}
 A.R_.prototype={
-aq(){var s,r,q=this,p=q.d,o=J.bR(p)
-o.ki(p)
-o.sc2(p,"Done")
-o.saa(p,"#007AFF")
-s=q.e
+aq(){var s,r,q,p,o=this
+o.d=1
+s=o.e
 r=J.bR(s)
 r.ki(s)
-r.lS(s,A.b0(new A.agW(q)))
-o.lS(p,A.b0(new A.agX(q)))
-q.aO()},
+r.sc2(s,"Done")
+r.saa(s,"#007AFF")
+q=o.f
+p=J.bR(q)
+p.ki(q)
+p.lS(q,A.b0(new A.agW(o)))
+r.lS(s,A.b0(new A.agX(o)))
+o.aO()},
 H(a){var s,r,q=null,p=A.d8(10),o=A.I(a).ax,n=o.d
 o=n==null?o.b:n
 n=this.a.c
@@ -84810,17 +84814,17 @@ n=n===1&&!0
 r=t.p
 return A.mQ(new A.b1(B.mB,A.bW(A.a([B.JE,A.c7(q,A.bW(A.a([new A.o8("Binance",s,new A.agU(a),q),B.br,new A.o8("Binance Testnet",n,new A.agV(a),q)],r),B.n,B.o),B.p,q,q,new A.bM(o,q,q,p,q,q,B.Q),q,q,q,q,q,q,q)],r),B.n,B.o),q))}}
 A.agW.prototype={
-$0(){var s=this.a
-J.kc(s.d)
-J.kc(s.e)
-s=s.c
+$0(){var s,r=this.a
+J.kc(r.e)
+J.kc(r.f)
+if(r.d===1){s=r.c
 s.toString
-A.e_(s,!1).nB(0)},
+A.e_(s,!1).nB(0)}++r.d},
 $S:5}
 A.agX.prototype={
 $0(){var s=this.a
-J.kc(s.d)
 J.kc(s.e)
+J.kc(s.f)
 s=s.c
 s.toString
 A.e_(s,!1).nB(0)},
