@@ -81146,7 +81146,7 @@ H(a){var s,r,q,p,o,n=this,m=null,l=A.bT(A.amN(B.IH,n.d,new A.aj7(n),t.S),m,1/0),
 k=A.bY(m,B.JW,B.p,m,m,new A.bE(i==null?j.b:i,m,m,k,m,m,B.Q),m,48,m,m,m,m,1/0)
 j=t.p
 if(n.d===0){i=A.b([],j)
-if(J.c($.aB().a.h(0,"active_buy"),!1)||J.c($.aB().a.h(0,"active_def"),!1))i.push(A.bH(A.b([B.Ja,A.Go(n.z,m,!1,m,"Existing volume",m),B.W],j),B.n,B.o))
+if(J.c($.aB().a.h(0,"active_buy"),!1)&&J.c($.aB().a.h(0,"active_def"),!1))i.push(A.bH(A.b([B.Ja,A.Go(n.z,m,!1,m,"Existing volume",m),B.W],j),B.n,B.o))
 i.push(B.Jb)
 s=A.da(10)
 r=A.I(a).ax
