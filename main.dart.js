@@ -81115,7 +81115,7 @@ $S:0}
 A.zX.prototype={
 a8(){var s,r,q,p="take_profit",o="take_amount",n=$.ef.h(0,"is_take_mrt"),m=$.ef.h(0,"is_take_step"),l=$.az().a.h(0,"take_step"),k=t.PF,j=A.b([],k)
 k=A.b([],k)
-s=A.eD("1000")
+s=A.eD(null)
 if(J.c($.az().a.h(0,p),0))r=""
 else{r=$.az().a.h(0,p)
 if(r==null)r=""}r=A.eD(A.h(r))
