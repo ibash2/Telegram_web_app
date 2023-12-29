@@ -81663,7 +81663,7 @@ H(a){return A.md(A.Wy(this.f,new A.aeA(this),t.Wk,t.Do))}}
 A.aeA.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=null
 if(b instanceof A.EQ){s=A.bT(new A.Ig("Create new bot",new A.aey(a),j),j,1/0)
-r=!b.b?new A.vY("Add a key",A.dv("public/images/cross.png",4),new A.aez(this.a,a),j):A.bH(A.b([B.IX,new A.x6(A.dv("public/images/binance-icon.png",3),"Binance",!1,j),B.W],t.p),B.n,B.o)
+r=b.b?new A.vY("Add a key",A.dv("public/images/cross.png",4),new A.aez(this.a,a),j):A.bH(A.b([B.IX,new A.x6(A.dv("public/images/binance-icon.png",3),"Binance",!1,j),B.W],t.p),B.n,B.o)
 q=b.a.a
 if(q[0]==null)q=B.zQ
 else{p=q.length
