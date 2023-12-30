@@ -80996,13 +80996,17 @@ $1(a){var s=this.a
 return $.dF=A.fj(A.b([s.d,s.e],t.R))},
 $S:16}
 A.wq.prototype={
-a8(){return new A.Os(new A.pj($.ef.h(0,"is_duration")),new A.pg($.ax().a.h(0,"cycles")),B.j)}}
+a8(){var s=$.ef.h(0,"is_duration"),r=$.ax().a.h(0,"cycles")
+if(r==null)r=1
+return new A.Os(new A.pj(s),new A.pg(r),B.j)}}
 A.Os.prototype={
 ap(){this.aL()},
 m(){var s,r=this.d
 $.ef.n(0,"is_duration",r.a)
 s=$.ax().a
-s.n(0,"cycles",r.a?this.e.a:1)
+if(r.a){r=this.e.a
+if(r==null)r=1}else r=1
+s.n(0,"cycles",r)
 this.aG()},
 H(a){var s=$.ax().a.h(0,"cycles")
 return A.mf(new A.aT(B.aU,A.bH(A.b([B.zB,A.KV(10,!0,10,1,this.e.gjL(),this.d.gjL(),$.ef.h(0,"is_duration"),"Full \u0441ycles",s),B.Je,B.W],t.p),B.n,B.o),null))}}
