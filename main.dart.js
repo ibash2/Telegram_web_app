@@ -81020,7 +81020,7 @@ o=A.b(["Limit Order","Market Order"],o)
 s=J.c($.ax().a.h(0,"type_first_order"),"MARKET")?B.hp:B.eI
 r=$.ax().a.h(0,"ammount_first_order")
 r=A.eD(A.h(r==null?"":r))
-if(J.c($.ax().a.h(0,p),0))q=""
+if(J.c($.ax().a.h(0,p),1))q=""
 else{q=$.ax().a.h(0,p)
 if(q==null)q=""}return new A.SI(n,o,s,r,A.eD(A.h(q)),B.j)}}
 A.SI.prototype={
@@ -81037,7 +81037,7 @@ s=p.w
 $.ax().a.n(0,"ammount_first_order",A.ha(s.a.a,null))
 r=$.ax().a
 if(p.r.a===0){q=p.x.a.a
-q=A.ha(q===""?"0":q,null)}else q=0
+q=A.ha(q===""?"1":q,null)}else q=1
 r.n(0,"price_first_order",q)
 q=$.ax().a
 q.n(0,"type_first_order",p.r.a===0?"LIMIT":"MARKET")
