@@ -81029,28 +81029,29 @@ r=t.PF
 if(q.r.a===1)$.ef=A.fF(A.b([o],r))
 else $.ef=A.fF(A.b([o,s],r))
 q.aL()},
-m(){var s,r,q,p,o=this,n="type_first_order"
-$.aq().a.n(0,"strategy",o.d[$.F1.a])
-s=o.w
+m(){var s,r,q,p=this,o="type_first_order"
+$.aq().a.n(0,"strategy",p.d[$.F1.a])
+s=p.w
 $.aq().a.n(0,"ammount_first_order",A.hb(s.a.a,null))
 r=$.aq().a
-q=o.x
-p=q.a.a
-r.n(0,"price_first_order",A.hb(p,null))
-r=$.aq().a
-r.n(0,n,o.r.a===0?"LIMIT":"MARKET")
+if(p.r.a===0)q=A.hb(p.x.a.a===""?"0":"",null)
+else q=0
+r.n(0,"price_first_order",q)
+q=$.aq().a
+q.n(0,o,p.r.a===0?"LIMIT":"MARKET")
 r=$.aq().a
 r.n(0,"io_calculate_type",$.F1.a===0?"AO":"LO")
-A.cS(o.r)
+A.cS(p.r)
 A.cS(s.a.a)
-A.cS(q.a.a)
-A.cS($.aq().a.h(0,n))
-r=$.aJ()
-s.af$=r
+r=p.x
+A.cS(r.a.a)
+A.cS($.aq().a.h(0,o))
+q=$.aJ()
+s.af$=q
 s.S$=0
-q.af$=r
-q.S$=0
-o.aG()},
+r.af$=q
+r.S$=0
+p.aG()},
 H(a){var s,r,q,p,o,n,m,l,k=this,j=null,i="public/images/arrow_down.png",h=t.p,g=t.S
 g=A.bT(A.amQ(A.aA([0,B.yJ,1,A.bR(A.b([B.Sh,B.MA,A.bY(j,B.Ss,B.p,j,j,new A.bE(B.Cl,j,j,A.db(16),j,j,B.Q),j,18,j,j,j,j,37)],h),B.n,B.fK,B.o)],g,t.l7),0,new A.aiA(k),g),j,1/0)
 s=A.I(a).ax
