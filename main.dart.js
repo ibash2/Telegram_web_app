@@ -82009,7 +82009,7 @@ A.Pt.prototype={
 ap(){var s=this
 Telegram.WebApp.expand()
 window.localStorage.setItem("isFirstOpen","yes")
-s.d=Telegram.WebApp.viewportStableHeight
+s.d=Telegram.WebApp.viewportHeight
 if(J.c(Telegram.WebApp.backgroundColor,"#212d3b"))s.e=B.i5
 if(!J.c(Telegram.WebApp.colorScheme,"dark"))s.e=B.j
 s.aJ()},
