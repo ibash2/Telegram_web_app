@@ -82006,11 +82006,13 @@ return A.nr(A.bL(A.xI(A.bJ(A.b([this.d,B.ML,A.c9(this.c,s,s,s,s,B.Q5,B.aF,s)],t.
 A.x5.prototype={
 a8(){return new A.Pt(Telegram.WebApp.viewportStableHeight,A.at8(Telegram.WebApp.backgroundColor),B.i)}}
 A.Pt.prototype={
-ap(){Telegram.WebApp.expand()
+ap(){var s=this
+Telegram.WebApp.expand()
 window.localStorage.setItem("isFirstOpen","yes")
-if(J.c(Telegram.WebApp.backgroundColor,"#212d3b"))this.e=B.i5
-if(!J.c(Telegram.WebApp.colorScheme,"dark"))this.e=B.j
-this.aJ()},
+s.d=Telegram.WebApp.viewportStableHeight
+if(J.c(Telegram.WebApp.backgroundColor,"#212d3b"))s.e=B.i5
+if(!J.c(Telegram.WebApp.colorScheme,"dark"))s.e=B.j
+s.aJ()},
 G(a){var s=null,r=this.e,q=this.d
 q.toString
 q-=690
