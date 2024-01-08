@@ -82004,7 +82004,7 @@ A.w9.prototype={
 G(a){var s=null
 return A.nr(A.bL(A.xI(A.bJ(A.b([this.d,B.ML,A.c9(this.c,s,s,s,s,B.Q5,B.aF,s)],t.p),B.n,B.fL,B.m),s,s,s,B.y,s,this.e,s,s,B.y),s,150),s,s)}}
 A.x5.prototype={
-a8(){return new A.Pt(Telegram.WebApp.viewportStableHeight,A.at8(Telegram.WebApp.backgroundColor),B.i)}}
+a8(){return new A.Pt(Telegram.WebApp.viewportHeight,A.at8(Telegram.WebApp.backgroundColor),B.i)}}
 A.Pt.prototype={
 ap(){var s=this
 Telegram.WebApp.expand()
