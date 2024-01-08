@@ -81122,11 +81122,12 @@ $1(a){var s,r=this.a
 $.eg.m(0,"is_io_step",r.w.a)
 $.eg.m(0,"is_io_mrt",r.r.a)
 r.as=a
-if(a===1)if(A.et(r.d.a.a,null)>10){s=$.iH()
+if(a===1){s=r.d.a.a
+if(s!==""&&A.et(s,null)>10){s=$.iH()
 s.a=!1
 s.b=u.g}else{s=$.iH()
 s.a=!0
-s.b=null}else if(A.et(r.f.a.a,null)>99){s=$.iH()
+s.b=null}}else if(A.et(r.f.a.a,null)>99){s=$.iH()
 s.a=!1
 s.b="Stop Loss cannot be greater than 99%"}else{s=$.iH()
 s.a=!0
