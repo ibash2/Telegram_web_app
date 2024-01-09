@@ -81096,7 +81096,7 @@ m=$.U().a.h(0,"io_step_mrt")
 if(m==null)m=1
 return new A.Oh(s,r,q,new A.po(p),new A.po(o),new A.pl(n),new A.pl(m),A.b(["Market Order","Limit Order"],t.s),B.i)}}
 A.Oh.prototype={
-ap(){var s,r,q=this,p="io_count",o="stop_loss",n=u.g
+ap(){var s,r,q=this,p="io_count",o="stop_loss"
 if(!J.c($.U().a.h(0,p),0))$.U().a.h(0,p)
 if(!J.c($.U().a.h(0,"io_step"),0))$.U().a.h(0,"io_step")
 if(!J.c($.U().a.h(0,o),0))$.U().a.h(0,o)
@@ -81106,9 +81106,9 @@ if(s===1){s=q.f
 $.e4=A.fm(A.b([s],r))
 A.he(s.a.a)
 s=s.a.a
-if(s!==""&&A.dH(s,null)>10){s=$.dr()
+if(s!==""&&A.dH(s,null)>99){s=$.dr()
 s.a=!1
-s.b=n}else{s=$.dr()
+s.b="Stop Loss cannot be greater than 99%"}else{s=$.dr()
 s.a=!0
 s.b=null}}else{s=q.d
 $.e4=A.fm(A.b([s,q.e],r))
@@ -81116,7 +81116,7 @@ A.he(s.a.a)
 s=s.a.a
 if(s!==""&&A.dH(s,null)>10){s=$.dr()
 s.a=!1
-s.b=n}else{s=$.dr()
+s.b=u.g}else{s=$.dr()
 s.a=!0
 s.b=null}}q.aJ()},
 n(){var s,r,q=this,p=q.w
