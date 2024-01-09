@@ -81167,15 +81167,15 @@ $1(a){var s,r=this.a
 $.ei.m(0,"is_io_step",r.w.a)
 $.ei.m(0,"is_io_mrt",r.r.a)
 r.as=a
-if(a===1){s=r.d.a.a
-if(s!==""&&A.dH(s,null)>10){s=$.dr()
-s.a=!1
-s.b=u.g}else{s=$.dr()
-s.a=!0
-s.b=null}}else{s=r.f.a.a
+if(a===1){s=r.f.a.a
 if(s!==""&&A.dH(s,null)>99){s=$.dr()
 s.a=!1
 s.b="Stop Loss cannot be greater than 99%"}else{s=$.dr()
+s.a=!0
+s.b=null}}else{s=r.d.a.a
+if(s!==""&&A.dH(s,null)>10){s=$.dr()
+s.a=!1
+s.b=u.g}else{s=$.dr()
 s.a=!0
 s.b=null}}r.a6(new A.adx())},
 $S:93}
