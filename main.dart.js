@@ -24495,12 +24495,13 @@ this.b=b
 this.c=c},
 HV:function HV(){},
 o4:function o4(a){this.a=a},
-Pb:function Pb(a,b,c,d){var _=this
-_.e=a
-_.f=b
-_.r=c
+Pb:function Pb(a,b,c,d,e){var _=this
+_.d=a
+_.e=b
+_.f=c
+_.r=d
 _.a=null
-_.b=d
+_.b=e
 _.c=null},
 aeO:function aeO(a){this.a=a},
 aeL:function aeL(a){this.a=a},
@@ -81956,12 +81957,13 @@ A.ob.prototype={}
 A.x0.prototype={}
 A.HV.prototype={}
 A.o4.prototype={
-a8(){return new A.Pb(J.c(Telegram.WebApp.colorScheme,"dark"),A.aC7(),new A.vu("public/images/pair.png",null,null),B.i)}}
+a8(){return new A.Pb(Telegram.WebApp.initData,J.c(Telegram.WebApp.colorScheme,"dark"),A.aC7(),new A.vu("public/images/pair.png",null,null),B.i)}}
 A.Pb.prototype={
-ap(){J.lp(Telegram.WebApp.MainButton)
-if(!this.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
-this.f.F(0,new A.pa("query_id=AAHDeggyAAAAAMN6CDL9OXr1&user=%7B%22id%22%3A839416515%2C%22first_name%22%3A%22Ibragim%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22lbraqim%22%2C%22language_code%22%3A%22ru%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1704117313&hash=7e68928802b3d14105273bc6f58a8fa97b8058c859204545fe63cd11f1d6af52"))
-this.aJ()},
+ap(){var s=this
+J.lp(Telegram.WebApp.MainButton)
+if(!s.e)Telegram.WebApp.setHeaderColor("#F2F2F7")
+s.f.F(0,new A.pa(s.d))
+s.aJ()},
 H(a){return A.kz(null,A.WL(this.f,new A.aeO(this),t.Wk,t.Do))}}
 A.aeO.prototype={
 $2(a,b){var s,r,q,p,o,n=null
