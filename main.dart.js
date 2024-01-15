@@ -81126,13 +81126,13 @@ $.eg.m(0,"is_io_mrt",s.a)
 r=$.U().a
 r.m(0,"def_type",q.as===0?"IO":"SL")
 r=$.U().a
-r.m(0,"io_count",q.as===1?0:A.e3(q.d.a.a,null))
+r.m(0,"io_count",q.as===1?1:A.e3(q.d.a.a,null))
 r=$.U().a
-r.m(0,"io_step",q.as===1?0:A.jM(q.e.a.a))
+r.m(0,"io_step",q.as===1?1:A.jM(q.e.a.a))
 r=$.U().a
 r.m(0,"io_mrt",s.a?A.jM(J.VX(q.x.a,1)):1)
 r=$.U().a
-r.m(0,"stop_loss",q.as===0?0:A.jM(q.f.a.a))
+r.m(0,"stop_loss",q.as===0?1:A.jM(q.f.a.a))
 s=$.U().a
 s.m(0,"io_step_mrt",p.a?A.jM(J.VX(q.y.a,1)):1)
 s=q.d
