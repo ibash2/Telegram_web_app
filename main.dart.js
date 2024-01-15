@@ -81386,9 +81386,9 @@ if(r===0){$.U().a.m(0,m,"MANUAL")
 q=[]
 for(h=t.N,s=t.i,p=0;r=n.x,p<r.length;++p)q.push(A.an(["step",A.jM(r[p].a.a),"amount",A.jM(n.y[p].a.a)],h,s))
 $.U().a.m(0,"takes",q)
-$.U().a.m(0,l,0)
+$.U().a.m(0,l,1)
 $.U().a.m(0,k,1)
-$.U().a.m(0,j,0)
+$.U().a.m(0,j,1)
 $.U().a.m(0,i,1)}else if(r===1){$.U().a.m(0,m,"AUTO")
 $.U().a.m(0,l,A.jM(n.Q.a.a))
 r=$.U().a
